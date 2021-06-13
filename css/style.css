@@ -687,6 +687,13 @@ span {
 }
 
 @media screen and (max-width:600px) {
+    .title{
+        font-size: 4rem!important; 
+    }
+    .title .large-full h2{
+        font-size: 4rem!important; 
+
+}
   .masonry-wrap {
     width: auto;
     padding-left: 25px;
