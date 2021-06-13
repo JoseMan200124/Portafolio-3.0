@@ -4771,8 +4771,13 @@ a.pswp__share--download:hover {
   .intro-text br {
     display: none;
   }
+    .tama h1{
+        font-size: 3rem!Important; 
+    }
+    
 
 }
+
 
 @media screen and (max-width:800px) {
   .intro-content {
@@ -4820,6 +4825,7 @@ a.pswp__share--download:hover {
 }
 
 @media screen and (max-width:600px) {
+    
   .s-intro {
     max-height: none;
   }
