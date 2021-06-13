@@ -4629,15 +4629,22 @@ a.pswp__share--download:hover {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url(/img/yo.jpeg);
+  background-image: url(/img/img1.jpeg);
   background-size: cover;
   position: absolute;
   top: 10%;
   right: 0;
   bottom: 0;
   left: 59%;
+
 }
 
+.intro-pic:hover{
+    background-image: url(/img/img2.jpeg);
+}
+.intro-pic{
+    transition: background-image 1.5s ease-in-out!important; 
+}
 .intro-pic::before {
   content: "";
   position: absolute;
