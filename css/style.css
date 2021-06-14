@@ -114,7 +114,7 @@ html, body{
       top: 40%;
       left: 38%;
       transform: translate(-50%, -50%);
-    background: #B90E0F; 
+    background: #9B1112; 
 }
 
 .hero-title h1 {
@@ -257,7 +257,7 @@ html, body{
       }
 
       .hero-title h1 {
-            font-size: 32px;
+            font-size: 60px;
       }
 }
 
@@ -284,7 +284,7 @@ body #magicPointer {
   top: 0;
   left: 0;
   position: fixed;
-  background: #B90E0F;
+  background: #9B1112;
   border-radius: 50%;
   pointer-events: none;
   transition: background 0.2s, width 0.2s, height 0.2s, box-shadow 0.2s; }
@@ -3807,7 +3807,7 @@ a.pswp__share--twitter:hover {
 
 a.pswp__share--pinterest:hover {
   background: #CCC;
-  color: #B90E0F;
+  color: #9B1112;
 }
 
 a.pswp__share--download:hover {
@@ -4134,9 +4134,8 @@ a.pswp__share--download:hover {
 
 ::-webkit-scrollbar-thumb {
     border: 4px solid #f9f9f9;
-    background: #B90E0F;
+    background: #9B1112;
 }
-
 
 #works{
     background: #000;
@@ -4149,9 +4148,6 @@ a.pswp__share--download:hover {
     color: #fff; 
 }
 
-.fondo{
-    background: #B90E0F;
-}
 
 /* -------------------------------------------------------------------
  * ## timeline
@@ -4449,7 +4445,7 @@ a.pswp__share--download:hover {
 }
 
 .about-experience__timeline{
-    background: #B90E0F;
+    background: #9B1112;
 }
 
 .padding{
@@ -4535,7 +4531,7 @@ a.pswp__share--download:hover {
   font-weight: 300;
   font-size: 8rem;
   line-height: 1;
-  color: #B90E0F;
+  color: #9B1112;
 }
 
 /* ------------------------------------------------------------------- 
@@ -4687,7 +4683,7 @@ a.pswp__share--download:hover {
   font-size: 7.8rem;
   font-weight: 500;
   line-height: 1.179;
-  color: #B90E0F;
+  color: #9B1112;
   margin-top: 0;
 }
 
@@ -4897,7 +4893,7 @@ a.pswp__share--download:hover {
 .contact-main a:hover,
 .contact-main a:focus,
 .contact-main a:active {
-  color: #B90E0F;
+  color: #9B1112;
   border-bottom: 1px solid white;
 }
 
@@ -4939,7 +4935,7 @@ a.pswp__share--download:hover {
 .contact-infos a:hover,
 .contact-infos a:focus,
 .contact-infos a:active {
-  color: #B90E0F;
+  color: #9B1112;
 }
 
 .contact-social ul {
@@ -5124,7 +5120,7 @@ footer a:visited {
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-  background-color: #B90E0F;
+  background-color: #9B1112;
   color: #ffffff;
 }
 
@@ -5277,13 +5273,14 @@ button {
     transition: color 0.5s;
 }
 .descargar-cv a:hover{
-    color: #B90E0F; 
+    color: #9B1112; 
 }
 .s-testimonials {
   padding-top: 1.4rem;
   padding-bottom: 1rem;
-  background-color: #B90E0F;
+  background-color: #9B1112;
 }
+
 
 .testimonials {
   position: relative;
