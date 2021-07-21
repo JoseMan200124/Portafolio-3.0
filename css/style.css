@@ -4635,12 +4635,8 @@ a.pswp__share--download:hover {
 
 }
 
-.intro-pic:hover{
-    background-image: url(/img/img2.jpeg);
-}
-.intro-pic{
-    transition: background-image 1.5s ease-in-out!important; 
-}
+
+
 .intro-pic::before {
   content: "";
   position: absolute;
