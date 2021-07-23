@@ -19,7 +19,7 @@ html, body{
       padding: 0%;
       width: 100%;
       height: 100vh;
-      background: url(/img/fondo.webp) no-repeat 50% 50%;
+      background: url(/img/fondo.gif) no-repeat 50% 50%;
       background-size: cover;
       text-transform: uppercase;
 }
