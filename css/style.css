@@ -24,7 +24,7 @@ html, body{
       text-transform: uppercase;
 }
 
-.gif-overlay {
+.gif-fondo {
       z-index: -1;
       margin: 0%;
       padding: 0%;
@@ -46,7 +46,7 @@ html, body{
     color: #fff;
 }
 
-.artist {
+.nombre {
       z-index: 2;
       position: absolute;
     font-weight: 900;
@@ -79,7 +79,7 @@ html, body{
 }
 
 
-.hero-gif {
+.gif-inicio {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -109,7 +109,7 @@ html, body{
       }
 }
 
-.hero-title {
+.titulo-principal {
       position: absolute;
       top: 40%;
       left: 38%;
@@ -117,7 +117,7 @@ html, body{
     background: #9B1112; 
 }
 
-.hero-title h1 {
+.titulo-principal h1 {
       color: #000;
       text-transform: uppercase;
       font-size: 80px;
@@ -182,7 +182,7 @@ html, body{
       animation: noise-anim 2s infinite linear alternate-reverse;
 }
 
-.hero-title p {
+.titulo-principal p {
       color: grey;
       font-family: Helvetica;
       text-transform: uppercase;
@@ -220,13 +220,13 @@ html, body{
       padding: 0 10px;
 }
 
-#rotated  {
+#circulo   {
       color: #fff;
       font-weight: 100;
       font-size: 12px;
 }
 
-.rotatethis {
+.rotar {
       position: absolute;
       top: 54%;
       left: 74%;
@@ -244,19 +244,19 @@ html, body{
     }
 
 @media(max-width: 900px) {
-      .watch, .rotatethis, .hero-title p, .hero-gif {
+      .watch, .rotar, .titulo-principal p, .gif-inicio {
             display: none !important;
       }
     .display-none{
         display: none; 
     }
 
-      .hero-title {
+      .titulo-principal {
             top: 45%;
             left: 50%;
       }
 
-      .hero-title h1 {
+      .titulo-principal h1 {
             font-size: 60px;
       }
 }
@@ -327,7 +327,7 @@ body .magic-hover {
   cursor: pointer;
   pointer-events: all;
 }
-.spacer {
+.espacio {
   display: inline-block;
   width: 80px;
   margin-left: 15px;
@@ -336,7 +336,7 @@ body .magic-hover {
   cursor: pointer;
   position: relative;
 }
-.spacer:before {
+.espacio:before {
   content: "";
   position: absolute;
   border-bottom: 1px solid #ffffff;
@@ -364,7 +364,7 @@ span {
 .item:hover span {
   color: #ff0000;
 }
-.menu:hover .spacer:before {
+.menu:hover .espacio:before {
   width: 100%;
   transition-delay: 0s;
 }
@@ -436,7 +436,7 @@ span {
  * # works
  *
  * ------------------------------------------------------------------- */
-.s-works {
+.s-trabajo {
   padding-top: 5.2rem;
   padding-bottom: 3rem;
   background-color: #ffffff;
@@ -647,7 +647,7 @@ span {
 }
 
 @media screen and (max-width:800px) {
-  .s-works {
+  .s-trabajo {
     padding-top: 16rem;
   }
 
@@ -4137,14 +4137,14 @@ a.pswp__share--download:hover {
     background: #9B1112;
 }
 
-#works{
+#trabajo{
     background: #000;
 }
-.title{
+.titulo{
     font-size: 6rem; 
     color: #fff; 
 }
-.section-desc{
+.sec-desc{
     color: #fff; 
 }
 
@@ -4152,24 +4152,24 @@ a.pswp__share--download:hover {
 /* -------------------------------------------------------------------
  * ## timeline
  * ------------------------------------------------------------------- */
-.about-experience__timeline {
+.acercade__lineatiempo {
   margin-top: 1.6rem;
 }
 
-.about-experience__timeline .column:first-child {
+.acercade__lineatiempo .column:first-child {
   padding-right: 40px;
 }
 
-.about-experience__timeline .column:last-child {
+.acercade__lineatiempo .column:last-child {
   padding-left: 40px;
 }
 
-.timeline {
+.lineatiempo {
   padding-top: 4.8rem;
   position: relative;
 }
 
-.timeline::before {
+.lineatiempo::before {
   content: "";
   display: block;
   width: 1px;
@@ -4180,7 +4180,7 @@ a.pswp__share--download:hover {
   top: 0;
 }
 
-.timeline::after {
+.lineatiempo::after {
   content: "";
   display: block;
   width: 5.6rem;
@@ -4191,7 +4191,7 @@ a.pswp__share--download:hover {
   top: 0;
 }
 
-.timeline__icon-wrap {
+.lineatiempo__icon-wrap {
   display: block;
   width: 6rem;
   height: 6rem;
@@ -4202,7 +4202,7 @@ a.pswp__share--download:hover {
   left: 5.6rem;
 }
 
-.timeline__icon {
+.lineatiempo__icon {
   display: block;
   width: 2.5rem;
   height: 2.5rem;
@@ -4216,15 +4216,15 @@ a.pswp__share--download:hover {
   top: 50%;
 }
 
-.timeline__icon--work {
+.lineatiempo__icon--work {
   background-image: url(../images/icons/icon-briefcase.svg);
 }
 
-.timeline__icon--education {
+.lineatiempo__icon--education {
   background-image: url(../images/icons/icon-education.svg);
 }
 
-.timeline__block {
+.lineatiempo__block {
   position: relative;
   padding-left: 5.6rem;
   padding-bottom: .8rem;
@@ -4232,11 +4232,11 @@ a.pswp__share--download:hover {
   min-height: 35.6rem;
 }
 
-.timeline .timeline__block:last-child {
+.lineatiempo .lineatiempo__block:last-child {
   padding-bottom: 0;
 }
 
-.timeline__bullet {
+.lineatiempo__bullet {
   content: "";
   display: block;
   width: 3px;
@@ -4247,16 +4247,16 @@ a.pswp__share--download:hover {
   top: 8px;
 }
 
-.timeline__header {
+.lineatiempo__header {
   margin-bottom: 3.2rem;
 }
 
-.timeline__header .timeline__timeframe,
-.timeline__header h5 {
+.lineatiempo__header .lineatiempo__timeframe,
+.lineatiempo__header h5 {
   font-family: "Roboto", sans-serif;
 }
 
-.timeline__header .timeline__timeframe {
+.lineatiempo__header .lineatiempo__timeframe {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.714;
@@ -4266,11 +4266,11 @@ a.pswp__share--download:hover {
   color: #000000;
 }
 
-.timeline__header h3 {
+.lineatiempo__header h3 {
   margin-bottom: 0;
 }
 
-.timeline__header h5 {
+.lineatiempo__header h5 {
   font-size: 2.1rem;
   font-weight: 400;
   line-height: 1.333;
@@ -4287,27 +4287,27 @@ a.pswp__share--download:hover {
     padding-bottom: 15.6rem;
   }
 
-  .about-experience__timeline .column:first-child {
+  .acercade__lineatiempo .column:first-child {
     padding-right: 30px;
   }
 
-  .about-experience__timeline .column::last-child {
+  .acercade__lineatiempo .column::last-child {
     padding-left: 30px;
   }
 
-  .timeline::after {
+  .lineatiempo::after {
     width: 4.4rem;
   }
 
-  .timeline__icon-wrap {
+  .lineatiempo__icon-wrap {
     left: 4.4rem;
   }
 
-  .timeline__block {
+  .lineatiempo__block {
     padding-left: 4.4rem;
   }
 
-  .timeline__header h5 {
+  .lineatiempo__header h5 {
     font-size: 1.8rem;
   }
 
@@ -4326,11 +4326,11 @@ a.pswp__share--download:hover {
     padding-left: 20px;
   }
 
-  .about-experience__timeline .column:first-child {
+  .acercade__lineatiempo .column:first-child {
     padding-right: 16px;
   }
 
-  .about-experience__timeline .column:last-child {
+  .acercade__lineatiempo .column:last-child {
     padding-left: 16px;
   }
 
@@ -4349,26 +4349,26 @@ a.pswp__share--download:hover {
     padding-left: 16px;
   }
 
-  .about-experience__timeline .column {
+  .acercade__lineatiempo .column {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .about-experience__timeline .column:first-child {
+  .acercade__lineatiempo .column:first-child {
     margin-bottom: 9.6rem;
   }
 
-  .timeline::after {
+  .lineatiempo::after {
     width: 5.6rem;
   }
 
-  .timeline__icon-wrap {
+  .lineatiempo__icon-wrap {
     left: 5.6rem;
   }
 
-  .timeline__block {
+  .lineatiempo__block {
     min-height: 0;
     padding-left: 5.6rem;
   }
@@ -4388,28 +4388,28 @@ a.pswp__share--download:hover {
 
 @media screen and (max-width:600px) {
   .about-me__buttons .column:first-child,
-  .about-experience__timeline .column:first-child {
+  .acercade__lineatiempo .column:first-child {
     padding-right: 10px;
   }
 
   .about-me__buttons .column:last-child,
-  .about-experience__timeline .column:last-child {
+  .acercade__lineatiempo .column:last-child {
     padding-left: 10px;
   }
 
-  .timeline::after {
+  .lineatiempo::after {
     width: 4.4rem;
   }
 
-  .timeline__icon-wrap {
+  .lineatiempo__icon-wrap {
     left: 4.4rem;
   }
 
-  .timeline__block {
+  .lineatiempo__block {
     padding-left: 4.4rem;
   }
 
-  .timeline__header h5 {
+  .lineatiempo__header h5 {
     font-size: 1.8rem;
   }
 
@@ -4421,30 +4421,30 @@ a.pswp__share--download:hover {
   }
 
   .about-me__buttons .column:first-child,
-  .about-experience__timeline .column:first-child {
+  .acercade__lineatiempo .column:first-child {
     padding-right: 0;
   }
 
   .about-me__buttons .column:last-child,
-  .about-experience__timeline .column:last-child {
+  .acercade__lineatiempo .column:last-child {
     padding-left: 0;
   }
 
-  .timeline::after {
+  .lineatiempo::after {
     width: 2.8rem;
   }
 
-  .timeline__icon-wrap {
+  .lineatiempo__icon-wrap {
     left: 2.8rem;
   }
 
-  .timeline__block {
+  .lineatiempo__block {
     padding-left: 2.8rem;
   }
 
 }
 
-.about-experience__timeline{
+.acercade__lineatiempo{
     background: #9B1112;
 }
 
@@ -4458,7 +4458,7 @@ a.pswp__share--download:hover {
  * # services
  *
  * ------------------------------------------------------------------- */
-.s-services {
+.s-habilidades {
   padding-top: 7.2rem;
   padding-bottom: 16rem;
   background-repeat: no-repeat;
@@ -4469,7 +4469,7 @@ a.pswp__share--download:hover {
   position: relative;
 }
 
-.s-services .shadow-overlay {
+.s-habilidades .shadow-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -4479,7 +4479,7 @@ a.pswp__share--download:hover {
   background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, black 80%);
 }
 
-.s-services::before {
+.s-habilidades::before {
   content: "";
   position: absolute;
   top: 0;
@@ -4490,39 +4490,39 @@ a.pswp__share--download:hover {
   opacity: .85;
 }
 
-.s-services h4 {
+.s-habilidades h4 {
   font-weight: 400;
   color: #ffffff;
 }
 
-.s-services a {
+.s-habilidades a {
   color: #cf1767;
 }
 
-.s-services a:hover,
-.s-services a:focus,
-.s-services a:active {
+.s-habilidades a:hover,
+.s-habilidades a:focus,
+.s-habilidades a:active {
   color: #ffffff;
 }
 
-.services-list {
+.habilidades-list {
   max-width: 1240px;
   margin-top: 8.8rem;
   counter-reset: ctr;
   position: relative;
 }
 
-.services-list .item-service {
+.habilidades-list .item-service {
   margin-bottom: 2.4rem;
   padding: 0 30px;
 }
 
-.services-list .item-service__content {
+.habilidades-list .item-service__content {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 3.6rem;
 }
 
-.services-list .item-service__content::before {
+.habilidades-list .item-service__content::before {
   display: block;
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
@@ -4539,62 +4539,62 @@ a.pswp__share--download:hover {
  * services
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1400px) {
-  .services-list .item-service {
+  .habilidades-list .item-service {
     padding: 0 20px;
   }
 
-  .services-list .item-service__content::before {
+  .habilidades-list .item-service__content::before {
     font-size: 7.2rem;
   }
 
 }
 
 @media screen and (max-width:1200px) {
-  .services-list {
+  .habilidades-list {
     max-width: 900px;
   }
 
-  .services-list .item-service__content::before {
+  .habilidades-list .item-service__content::before {
     font-size: 6.8rem;
   }
 
 }
 
 @media screen and (max-width:800px) {
-  .s-services {
+  .s-habilidades {
     padding-top: 16rem;
     padding-bottom: 16rem;
   }
 
-  .services-list {
+  .habilidades-list {
     max-width: 600px;
     margin-top: 8rem;
   }
 
-  .services-list .item-service {
+  .habilidades-list .item-service {
     padding: 0 16px;
     min-height: 0;
   }
 
-  .services-list .item-service__content::before {
+  .habilidades-list .item-service__content::before {
     font-size: 5.4rem;
   }
 
 }
 
 @media screen and (max-width:600px) {
-  .services-list .item-service {
+  .habilidades-list .item-service {
     padding: 0 10px;
   }
 
 }
 
 @media screen and (max-width:400px) {
-  .services-list .item-service {
+  .habilidades-list .item-service {
     padding: 0;
   }
 
-  .services-list .item-service__content::before {
+  .habilidades-list .item-service__content::before {
     font-size: 4.8rem;
   }
 
@@ -4611,7 +4611,7 @@ a.pswp__share--download:hover {
   background-color: #050505;
 }
 
-.intro-content {
+.intro-contenido {
   height: 100%;
   max-width: 1140px;
   padding-top: 20vh;
@@ -4621,7 +4621,7 @@ a.pswp__share--download:hover {
   position: relative;
 }
 
-.intro-pic {
+.foto-personal {
   background-color: #02182c;
   background-repeat: no-repeat;
   background-position: top center;
@@ -4637,7 +4637,7 @@ a.pswp__share--download:hover {
 
 
 
-.intro-pic::before {
+.foto-personal::before {
   content: "";
   position: absolute;
   top: 0;
@@ -4648,7 +4648,7 @@ a.pswp__share--download:hover {
   opacity: .2;
 }
 
-.intro-grid {
+.intro-margen {
   background-image: url(../images/pattern-dot-grid.svg);
   background-size: 24px 24px;
   opacity: .15;
@@ -4730,7 +4730,7 @@ a.pswp__share--download:hover {
 }
 
 @media screen and (max-width:1200px) {
-  .intro-content {
+  .intro-contenido {
     max-width: 1000px;
   }
 
@@ -4772,21 +4772,21 @@ a.pswp__share--download:hover {
 
 
 @media screen and (max-width:800px) {
-  .intro-content {
+  .intro-contenido {
     width: 88%;
     padding-top: 8rem;
   }
 
-  .intro-pic {
+  .foto-personal {
     top: 12%;
     left: 40%;
   }
 
-  .intro-pic::before {
+  .foto-personal::before {
     opacity: .4;
   }
 
-  .intro-grid {
+  .intro-mergen {
     top: 20%;
     opacity: .1;
   }
@@ -4806,11 +4806,11 @@ a.pswp__share--download:hover {
     font-size: 5rem;
   }
 
-  .intro-pic {
+  .foto-personal {
     left: 30%;
   }
 
-  .intro-grid {
+  .intro-margen {
     left: 15%;
   }
 
@@ -4822,15 +4822,15 @@ a.pswp__share--download:hover {
     max-height: none;
   }
 
-  .intro-content {
+  .intro-contenido {
     width: auto;
   }
 
-  .intro-pic {
+  .foto-personal {
     left: 20%;
   }
 
-  .intro-grid {
+  .intro-margen {
     left: 10%;
   }
 
@@ -4877,23 +4877,23 @@ a.pswp__share--download:hover {
  * # contact
  *
  * ------------------------------------------------------------------- */
-.s-contact {
+.s-contactame {
   background-color: #050505;
 }
 
-.contact-main a {
+.contactame-main a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   display: inline-block;
 }
 
-.contact-main a:hover,
-.contact-main a:focus,
-.contact-main a:active {
+.contactame-main a:hover,
+.contactame-main a:focus,
+.contactame-main a:active {
   color: #9B1112;
   border-bottom: 1px solid white;
 }
 
-.contact-email {
+.contactame-email {
   font-family: "Roboto", sans-serif;
   font-size: 3.2rem;
   font-weight: 400;
@@ -4903,18 +4903,18 @@ a.pswp__share--download:hover {
 .gmail p a{
     color: #fff;  
 }
-.contact-infos {
+.contactame-infos {
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 400;
   font-size: 4.2rem;
   line-height: 1.333;
 }
 
-.contact-infos .column {
+.contactame-infos .column {
   margin-bottom: 1.6rem;
 }
 
-.contact-infos h4 {
+.contactame-infos h4 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 2.4rem;
@@ -4924,17 +4924,17 @@ a.pswp__share--download:hover {
   color: rgba(255, 255, 255, 0.35);
 }
 
-.contact-infos a {
+.contactame-infos a {
   color: #ffffff;
 }
 
-.contact-infos a:hover,
-.contact-infos a:focus,
-.contact-infos a:active {
+.contactame-infos a:hover,
+.contactame-infos a:focus,
+.contactame-infos a:active {
   color: #9B1112;
 }
 
-.contact-social ul {
+.contactame-social ul {
   list-style: none;
   margin-left: 0;
   display: -ms-flexbox;
@@ -4945,18 +4945,18 @@ a.pswp__share--download:hover {
   flex-flow: row wrap;
 }
 
-.contact-social ul li {
+.contactame-social ul li {
   padding-left: 0;
 }
 
-.contact-social ul li::before {
+.contactame-social ul li::before {
   content: "/";
   color: #ffffff;
   margin-left: 4px;
   margin-right: 4px;
 }
 
-.contact-social ul li:first-child::before {
+.contactame-social ul li:first-child::before {
   display: none;
 }
 
@@ -4965,22 +4965,22 @@ a.pswp__share--download:hover {
 * contact
 * ------------------------------------------------------------------- */
 @media screen and (max-width:1300px) {
-  .contact-email {
+  .contactame-email {
     font-size: 3rem;
   }
 
-  .contact-infos {
+  .contactame-infos {
     font-size: 4rem;
   }
 
-  .contact-infos h4 {
+  .contactame-infos h4 {
     font-size: 2rem;
   }
 
 }
 
 @media screen and (max-width:1200px) {
-  .contact-email {
+  .contactame-email {
     font-size: 2rem;
   }
 
@@ -4989,48 +4989,48 @@ a.pswp__share--download:hover {
 }
 
 @media screen and (max-width:1024px) {
-  .contact-email {
+  .contactame-email {
     font-size: 1.2rem;
   }
 
-  .contact-infos {
+  .contactame-infos {
     font-size: 3.8rem;
   }
 
-  .contact-infos h4 {
+  .contactame-infos h4 {
     font-size: 1.8rem;
   }
 
 }
 
 @media screen and (max-width:800px) {
-  .s-contact {
+  .s-contactame {
     padding-top: 16rem;
   }
 
-  .contact-email {
+  .contactame-email {
     font-size: 4vw;
   }
 
-  .contact-infos {
+  .contactame-infos {
     font-size: 3.6rem;
   }
 
 }
 
 @media screen and (max-width:600px) {
-  .contact-social ul li {
+  .contactame-social ul li {
     margin-right: 1.2rem;
   }
 
-  .contact-social ul li::before {
+  .contactame-social ul li::before {
     display: none;
   }
 
 }
 
 @media screen and (max-width:400px) {
-  .contact-infos {
+  .contactame-infos {
     font-size: 3rem;
   }
 
@@ -5271,18 +5271,18 @@ button {
 .descargar-cv a:hover{
     color: #9B1112; 
 }
-.s-testimonials {
+.s-testimoniales {
   padding-top: 1.4rem;
   padding-bottom: 1rem;
   background-color: #9B1112;
 }
 
 
-.testimonials {
+.testimoniales  {
   position: relative;
 }
 
-.testimonials p {
+.testimoniales p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
@@ -5290,15 +5290,15 @@ button {
   color: #000000;
 }
 
-.testimonials__slider {
+.testimoniales__slider {
   position: relative;
 }
 
-.testimonials__slider .slick-slide {
+.testimoniales__slider .slick-slide {
   outline: none;
 }
 
-.testimonials__slider .slick-dots {
+.testimoniales__slider .slick-dots {
   display: block;
   list-style: none;
   padding: 0;
@@ -5308,7 +5308,7 @@ button {
   right: 4rem;
 }
 
-.testimonials__slider .slick-dots li {
+.testimoniales__slider .slick-dots li {
   display: inline-block;
   width: 27px;
   height: 27px;
@@ -5317,7 +5317,7 @@ button {
   cursor: pointer;
 }
 
-.testimonials__slider .slick-dots li button {
+.testimoniales__slider .slick-dots li button {
   display: block;
   width: 10px;
   height: 10px;
@@ -5333,28 +5333,28 @@ button {
   color: transparent;
 }
 
-.testimonials__slider .slick-dots li button:hover,
-.testimonials__slider .slick-dots li button:focus {
+.testimoniales__slider .slick-dots li button:hover,
+.testimoniales__slider .slick-dots li button:focus {
   outline: none;
 }
 
-.testimonials__slider .slick-dots li.slick-active button,
-.testimonials__slider .slick-dots li:hover button {
+.testimoniales__slider .slick-dots li.slick-active button,
+.testimoniales__slider .slick-dots li:hover button {
   background: #cf1767;
 }
 
-.testimonials__slide {
+.testimoniales__slide {
   position: relative;
 }
 
-.testimonials__info {
+.testimoniales__info {
   height: 7.2rem;
   margin-top: 8rem;
   padding-left: 10rem;
   position: relative;
 }
 
-.testimonials__avatar {
+.testimoniales__avatar {
   width: 7.2rem;
   height: 7.2rem;
   border-radius: 100%;
@@ -5364,22 +5364,22 @@ button {
   left: 0;
 }
 
-.testimonials__cite {
+.testimoniales__cite {
   display: block;
 }
 
-.testimonials__cite strong,
-.testimonials__cite span {
+.testimoniales__cite strong,
+.testimoniales__cite span {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 
-.testimonials__cite strong {
+.testimoniales__cite strong {
   font-size: 2.4rem;
   line-height: 1.5;
 }
 
-.testimonials__cite span {
+.testimoniales__cite span {
   display: block;
   font-size: 1.8rem;
   line-height: 1.333;
@@ -5387,127 +5387,127 @@ button {
 }
 
 /* ------------------------------------------------------------------- 
- * responsive:
+ * responsive:services
  * testimonials
  * ------------------------------------------------------------------- */
 @media screen and (max-width:1400px) {
-  .testimonials p {
+  .testimoniales p {
     font-size: 1.8rem;
   }
 
 }
 
 @media screen and (max-width:1200px) {
-  .testimonials {
+  .testimoniales {
     max-width: 1000px;
   }
 
-  .testimonials p {
+  .testimoniales p {
     font-size: 1.6rem;
   }
 
-  .testimonials__info {
+  .testimoniales__info {
     height: 6.8rem;
     padding-left: 9.4rem;
   }
 
-  .testimonials__avatar {
+  .testimoniales__avatar {
     width: 6.8rem;
     height: 6.8rem;
   }
 
-  .testimonials__cite strong {
+  .testimoniales__cite strong {
     font-size: 2.2rem;
   }
 
-  .testimonials__cite span {
+  .testimoniales__cite span {
     font-size: 1.7rem;
   }
 
 }
 
 @media screen and (max-width:1000px) {
-  .testimonials {
+  .testimoniales {
     max-width: 800px;
   }
 
-  .testimonials p {
+  .testimoniales p {
     font-size: 1.4rem;
   }
 
-  .testimonials__cite strong {
+  .testimoniales__cite strong {
     font-size: 2rem;
   }
 
-  .testimonials__cite span {
+  .testimoniales__cite span {
     font-size: 1.6rem;
   }
 
 }
 
 @media screen and (max-width:900px) {
-  .testimonials p {
+  .testimoniales p {
     font-size: 1.2rem;
   }
 
 }
 
 @media screen and (max-width:800px) {
-  .s-testimonials {
+  .s-testimoniales {
     padding-top: 16rem;
     text-align: center;
   }
 
-  .testimonials p {
+  .testimoniales p {
     font-size: 1.1rem;
   }
 
-  .testimonials__slider .slick-dots {
+  .testimoniales__slider .slick-dots {
     margin-top: 4rem;
     position: static;
   }
 
-  .testimonials__info {
+  .testimoniales__info {
     display: inline-block;
     height: 6.4rem;
     padding-left: 9rem;
   }
 
-  .testimonials__avatar {
+  .testimoniales__avatar {
     width: 6.4rem;
     height: 6.4rem;
   }
 
-  .testimonials__cite strong {
+  .testimoniales__cite strong {
     font-size: 1.8rem;
   }
 
-  .testimonials__cite span {
+  .testimoniales__cite span {
     font-size: 1.6rem;
   }
 
 }
 
 @media screen and (max-width:600px) {
-  .s-testimonials {
+  .s-testimoniales {
     padding-top: 3.6rem;
     padding-bottom: 2.6rem;
   }
 
-  .testimonials p {
+  .testimoniales p {
     font-size: 1.1rem;
   }
 
 }
 
 @media screen and (max-width:400px) {
-  .testimonials p {
+  .testimoniales p {
     font-size: 1.1rem;
   }
 
 }
 
-.testimonials p {
+.testimoniales p {
 text-align: justify;
 }
 
