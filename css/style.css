@@ -1,13 +1,6 @@
-#loader{
-    position: fixed;
-    width: 100%; 
-    height: 100vh; 
-    z-index: 1; 
-    overflow: visible; 
-    background: #000 url('/img/loader.gif') no-repeat center center; 
-}
+
 html, body{
-          font-family: "Monument Extended";
+          
     font-family: 'Staatliches', cursive;
       text-transform: uppercase;
     background: #000; 
@@ -65,7 +58,6 @@ html, body{
       margin: 0 40px;
       color: grey;
       padding: 0 10px;
-      font-family: Helvetica;
       font-size: 12px;
       font-weight: 100;
       letter-spacing: 4px;
@@ -184,7 +176,6 @@ html, body{
 
 .titulo-principal p {
       color: grey;
-      font-family: Helvetica;
       text-transform: uppercase;
       font-size: 12px;
       letter-spacing: 14px;
@@ -201,7 +192,7 @@ html, body{
       list-style: none;
       color: grey;
       padding: 0 10px;
-      font-family: Helvetica;
+    
       font-size: 12px;
       font-weight: 100;
 }
@@ -4253,7 +4244,7 @@ a.pswp__share--download:hover {
 
 .lineatiempo__header .lineatiempo__timeframe,
 .lineatiempo__header h5 {
-  font-family: "Roboto", sans-serif;
+
 }
 
 .lineatiempo__header .lineatiempo__timeframe {
@@ -4527,7 +4518,7 @@ a.pswp__share--download:hover {
   content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
   margin-bottom: 4.8rem;
-  font-family: "Roboto", sans-serif;
+ 
   font-weight: 300;
   font-size: 8rem;
   line-height: 1;
@@ -4667,7 +4658,7 @@ a.pswp__share--download:hover {
 }
 
 .intro-text h3 {
-  font-family: "Roboto", sans-serif;
+
   font-size: 2.4rem;
   font-weight: 500;
   line-height: 1.333;
@@ -4684,7 +4675,7 @@ a.pswp__share--download:hover {
 }
 
 .intro-scroll {
-  font-family: "Roboto", sans-serif;
+ 
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 2;
@@ -4894,7 +4885,7 @@ a.pswp__share--download:hover {
 }
 
 .contactame-email {
-  font-family: "Roboto", sans-serif;
+  
   font-size: 3.2rem;
   font-weight: 400;
   line-height: 1;
@@ -4904,7 +4895,8 @@ a.pswp__share--download:hover {
     color: #fff;  
 }
 .contactame-infos {
-  font-family: "Frank Ruhl Libre", serif;
+  
+  
   font-weight: 400;
   font-size: 4.2rem;
   line-height: 1.333;
@@ -4915,7 +4907,8 @@ a.pswp__share--download:hover {
 }
 
 .contactame-infos h4 {
-  font-family: "Roboto", sans-serif;
+  
+  
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 1.333;
@@ -5043,7 +5036,7 @@ a.pswp__share--download:hover {
  *
  * ------------------------------------------------------------------- */
 footer {
-  font-family: "Roboto", sans-serif;
+
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2;
@@ -5274,7 +5267,7 @@ button {
 .s-testimoniales {
   padding-top: 1.4rem;
   padding-bottom: 1rem;
-  background-color: #9B1112;
+
 }
 
 
@@ -5287,7 +5280,7 @@ button {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.8;
-  color: #000000;
+  color: #fff;
 }
 
 .testimoniales__slider {
@@ -5366,6 +5359,7 @@ button {
 
 .testimoniales__cite {
   display: block;
+    color: #fff; 
 }
 
 .testimoniales__cite strong,
@@ -5383,7 +5377,7 @@ button {
   display: block;
   font-size: 1.8rem;
   line-height: 1.333;
-  color: rgba(0, 0, 0, 0.7);
+
 }
 
 /* ------------------------------------------------------------------- 
