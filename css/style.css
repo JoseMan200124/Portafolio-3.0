@@ -1813,6 +1813,10 @@ textarea {
 		max-width: 12.5%;
 	}
 
+    .titulo{
+    font-size: 4rem!important; 
+    color: #fff; 
+}
 	.block-tab-1-6 > .column {
 		-webkit-flex: 0 0 16.66667%;
 		-ms-flex: 0 0 16.66667%;
