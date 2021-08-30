@@ -1,5 +1,5 @@
 const dropboxLink = "https://www.dropbox.com/s/2z7xqycej0z12zp/cv.pdf?dl=0";
-const clientId = "658cd1d6ab42411697dddbcf76b43790"; 
+const clientId = "a1181aa9f0954359a2595844cfbeeee3"; 
 const viewerOptions = {
     embedMode: "FULL_WINDOW",
     defaultViewMode: "FIT_PAGE",
